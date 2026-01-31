@@ -1,0 +1,16 @@
+{
+  "name": "learning-elastic-search",
+  "version": "1.0.0",
+  "description": "Just learning elastic search",
+  "dependencies": {
+    "@elastic/elasticsearch": "^9.2.1",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "addData": "node src/addData.js",
+    "addSchema": "node src/addSchema.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
