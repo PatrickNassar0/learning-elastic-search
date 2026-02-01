@@ -47,7 +47,8 @@ const result = await client.search({
         },
         // Highlight the snippets where the terms were found
         highlight: {
-            fields: {
+            fields: { // the problem here that it is returning the fields in array so you should find out which title belongs to which content *NOT NICE*
+                title: {},
                 content: {}
             }
         }
